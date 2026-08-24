@@ -10,7 +10,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 @Service
 @RequiredArgsConstructor
 public class LancheService {
@@ -26,6 +25,7 @@ public class LancheService {
     public List<LancheResumoDTO> listarTodos() {
         return lancheRepository.findAll().stream()
                 .map(lanche -> LancheResumoDTO.builder()
+                        .id(lanche.getId())
                         .nome(lanche.getNome())
                         .preco(lanche.getPreco())
                         .build())

@@ -4,7 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -14,22 +13,17 @@ target/
 .sts4-cache
 bin/
 
-### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 out/
 
-### VS Code ###
 .vscode/
 
-### Eclipse ###
 .metadata
 
-### macOS ###
 .DS_Store
 
-### Configuracao local sensivel ###
 application-local.properties
 *.log

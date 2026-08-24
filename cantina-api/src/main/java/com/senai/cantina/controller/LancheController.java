@@ -54,5 +54,5 @@ public class LancheController {
         lancheService.remover(id);
         return ResponseEntity.noContent().build();
     }
-    
+
 }

@@ -193,3 +193,5 @@ Todos os erros da API seguem o mesmo formato JSON, centralizado em `GlobalExcept
 - Adicionar testes de integração para o Controller (MockMvc).
 
 ---
+
+
